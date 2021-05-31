@@ -1,0 +1,85 @@
+body {
+    margin: 0px auto;
+}
+
+.main {
+    width: 660px;
+
+    margin: 10px auto;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    align-content: center;
+}
+
+.images-block {
+    justify-content: center;
+    margin: 0 auto;
+    width: 640px;
+    height: 426px;
+    align-content: center;
+    overflow: hidden;
+}
+
+.slider {
+    width: 640px;
+    height: 426px;
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: all ease 2s;
+}
+
+p {
+    text-align: center;
+    color: goldenrod;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+h1:hover {
+    color: goldenrod;
+}
+
+img {
+    width: 640px;
+    height: 426px;
+    border-radius: 20px;
+
+}
+
+button {
+    margin: 0 10px;
+}
+
+.button-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.previous, .next {
+    width: 86px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+button:active {
+    background: darkorchid;
+    color: white;
+}
+
+
